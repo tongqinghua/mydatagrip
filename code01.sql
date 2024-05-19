@@ -2,7 +2,7 @@ create database test;
 use test;
 
 DROP TABLE IF EXISTS environmental_monitoring;
--- 创建环保监测表.
+-- 创建环保监测表..
 CREATE TABLE environmental_monitoring (
  id INT AUTO_INCREMENT PRIMARY KEY,
  license_plate VARCHAR(255) COMMENT '⻋牌号',
